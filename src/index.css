@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk Body */
+body {
+    font-family: 'Arial', sans-serif; /* Font dasar */
+    font-size: 16px; /* Ukuran font dasar */
+    line-height: 1.5; /* Jarak antar baris */
+    color: #333; /* Warna teks */
+    background-color: #f4f4f4; /* Warna latar belakang */
+    padding: 20px; /* Padding untuk body */
+    margin: 0; /* Menghilangkan margin */
+}
+
